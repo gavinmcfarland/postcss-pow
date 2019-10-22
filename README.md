@@ -4,7 +4,7 @@
 [![Build Status][cli-img]][cli-url]
 [![Support Chat][git-img]][git-url]
 
-[PostCSS Pow] lets you calculate the power of a number dynamically in CSS variables (supports integers only). This is useful for example if your design uses a font scale which changes at different breakpoints using media queries.
+[PostCSS Pow] lets you calculate the power of a number dynamically using CSS variables (supports integers only). This is useful for example if your design uses a font scale which changes at different breakpoints using media queries.
 
 ```pcss
 :root {
