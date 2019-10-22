@@ -1,0 +1,7 @@
+:root {
+	--scale: 1.68;
+}
+
+.example {
+	font-size: calc(16px * (1 / (var(--scale) * var(--scale))));
+}
