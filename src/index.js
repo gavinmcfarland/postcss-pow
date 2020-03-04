@@ -31,7 +31,7 @@ export default postcss.plugin('postcss-sqrt', () => {
 						return string + ')'
 					} else if (fnArgs.power === 0) {
 
-						return 0
+						return 1
 					} else {
 						fnArgs.power = Math.abs(fnArgs.power)
 						let string = '(1 / (' + fnArgs.base
