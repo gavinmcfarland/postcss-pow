@@ -4,7 +4,7 @@
 [![Build Status][cli-img]][cli-url]
 [![Support Chat][git-img]][git-url]
 
-[PostCSS Pow] lets you calculate the power of a number dynamically using CSS variables (supports integers only). This is useful for example if your design uses a font scale which changes at different breakpoints using media queries. Or if you need to animate a measurement which uses an exponent calculated using a CSS variables.
+[PostCSS Pow] lets you calculate the power of a number dynamically using CSS variables (supports integers only). This is useful, for example if your typography follows a modular scale where the scale also happens to changes at different breakpoints. Or if you need to animate a measurement which uses an exponent calculated using a CSS variables.
 
 ```pcss
 :root {
@@ -26,6 +26,14 @@
 }
 
 ```
+
+Currently supports whole numbers, positive or negative and zero.
+
+## Futher Reading
+
+Heydon Pickering and Andy Bell's blog post about using [modular scale](https://every-layout.dev/rudiments/modular-scale/) for creating visual harmony in your layout.
+
+Draft specification for new [mathematical functions and expressions](https://drafts.csswg.org/css-values/#math) coming to CSS.
 
 ## Usage
 
